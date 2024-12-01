@@ -1,3 +1,17 @@
+<?php 
+error_reporting(0);
+    session_start();
+    session_destroy();
+    if($_SESSION['message'])
+    {
+        $mes=$_SESSION['message'];
+     echo   "<script type='text/javascript'>
+        alert('$mes');
+        </script>" ;
+    }
+
+    ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -71,7 +85,7 @@ nav ul
     </style>
 </head>
 <body>
-    
+   
 
     <nav>
         <label class="logo">
@@ -101,7 +115,7 @@ nav ul
 
     <div class="containerx">
         <h2>Admission Form</h2>
-        <form action="amdCheck.php" method="POST">
+        <form action="./amdCheck.php" method="POST">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
 
@@ -109,12 +123,12 @@ nav ul
             <input type="email" id="email" name="email" required>
 
             <label for="phone">Phone Number:</label>
-            <input type="tel" id="phone" name="phone" required>
+            <input type="text" id="phone" name="phone" required>
 
             <label for="message">Message:</label>
             <input type="text" id="message" name="message" required>
 
-            <button type="submit">Submit</button>
+            <button type="submit" name="submit">Submit</button>
         </form>
     </div>
     </div>

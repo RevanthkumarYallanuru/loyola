@@ -32,7 +32,5 @@
             </li>
 
            
-                <a href="">View Courses</a>
-            </li>
         </ul>
     </aside>

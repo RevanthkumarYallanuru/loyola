@@ -53,7 +53,7 @@ nav ul li a:hover
 
 .slidesbar
 {
-    background-image: url("./images/OIP.jpg");
+    background-image: url("./images/OIP1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin: auto;
@@ -122,6 +122,10 @@ border-radius: 14px;
     margin-bottom: 8px;
     width: 360px;
     height: 180px;
+}
+.case .c1 img:hover
+{
+    border-left: 5px solid rgb(22, 104, 220) ;
 }
 .case .c1 
 {

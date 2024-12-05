@@ -31,13 +31,7 @@
                 <a href="./viewTeacher.php">View Teacher</a>
             </li>
 
-            
-            <li>
-                <a href="">Add Courses</a>
-            </li>
-
-            
-            <li>
+           
                 <a href="">View Courses</a>
             </li>
         </ul>

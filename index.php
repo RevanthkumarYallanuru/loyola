@@ -123,13 +123,24 @@
     <div class="title">
         <h2>Our <span>MANAGEMENT</span></h2>
     </div>
+    <style>
+        .admins .card .ims img
+        {
+            height: 200px;
+            width:200px;
+        }
+        .admins .card span
+        {
+            color:#121222;
+        }
+    </style>
     <div class="admins">
         <div class="card">
             <div class="ims">
-                <img src="./images/principal.jpg" alt="">
+                <img src="./images/cor.jpg" alt="">
             </div>
             <span>CORRESPONDENT</span>
-            <h3>MARTIN BROTTO PAUL</h3>
+            <h3>Rev. Fr.V. ANTONY SAMY SJ</h3>
         </div>
 
         <div class="card">
@@ -137,16 +148,16 @@
                 <img src="./images/principal.jpg" alt="">
             </div>
             <span>PRINCIPAL</span>
-            <h3>MARTIN BROTTO PAUL</h3>
+            <h3>Rev Fr. BRITTO MARTIN PAUL SJ</h3>
         </div>
 
 
         <div class="card">
             <div class="ims">
-                <img src="./images/principal.jpg" alt="">
+                <img src="./images/vp.jpg" alt="">
             </div>
             <span>VICE PRINCIPAL</span>
-            <h3>VIJAYA RAJU</h3>
+            <h3>Rev Fr. P. VIJAYA RAJU SJ</h3>
         </div>
 
 
@@ -155,40 +166,40 @@
             <h3>OUR <span>Heads Of Departments</span></h3>
             <div class="shows">
                 <div class="cs">
-                    <img src="./images/principal.jpg" alt="">
-                    <span>VIJAYA RAJU</span>
-                    <h6>CSM</h6>
+                    <img src="./images/vp.jpg" alt="">
+                    <span>Rev Fr. P. VIJAYA RAJU SJ</span>
+                    <h6>DCME</h6>
                 </div>
 
                 <div class="cs">
-                    <img src="./images/principal.jpg" alt="">
-                    <span>VIJAYA RAJU</span>
-                    <h6>ECE</h6>
+                    <img src="./images/hod2.jpg" alt="">
+                    <span>Darasi Anantha Kumar</span>
+                    <h6>DEEE</h6>
                 </div>
 
 
                 <div class="cs">
-                    <img src="./images/principal.jpg" alt="">
-                    <span>VIJAYA RAJU</span>
-                    <h6>EEE</h6>
+                    <img src="./images/hod3.jpg" alt="">
+                    <span>B. Venkata Rami Reddy</span>
+                    <h6>DECE</h6>
                 </div>
 
                 <div class="cs">
-                    <img src="./images/principal.jpg" alt="">
-                    <span>VIJAYA RAJU</span>
-                    <h6>CE</h6>
+                    <img src="./images/hod4.jpg" alt="">
+                    <span>G. John Sebastian</span>
+                    <h6>DMEC</h6>
                 </div>
 
                 <div class="cs">
-                    <img src="./images/principal.jpg" alt="">
-                    <span>VIJAYA RAJU</span>
-                    <h6>MEC</h6>
+                    <img src="./images/hod5.jpg" alt="">
+                    <span>K. Muralidhar Reddy</span>
+                    <h6>DCVL</h6>
                 </div>
 
                 <div class="cs">
-                    <img src="./images/OIP.jpg" alt="">
-                    <span>prasad</span>
-                    <h6>MNG</h6>
+                    <img src="./images/hod6.jpg" alt="">
+                    <span>Birusu Prasad</span>
+                    <h6>DMNG</h6>
                 </div>
             </div>
         </div>
@@ -220,7 +231,7 @@
             console.log("function");
             if(count===1)
         {
-            sbar.style.backgroundImage=' url("./images/OIP.jpg")';
+            sbar.style.backgroundImage=' url("./images/OIP1.jpg")';
             count=2;
         }
         else   if(count===2)
